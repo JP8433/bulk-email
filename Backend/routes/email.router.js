@@ -17,8 +17,8 @@ import sendEmailBulk from '../utils/BulkEmail.js';
 const router = express.Router();
 
 //!below api is foront end api to use to send mail.
-// const API = "https://netlify.app"; //
-const API = "http://localhost:3000"
+
+const API = "https://splendorous-puppy-1261f6.netlify.app/"
 
 
 // router.post('/settings',auth,express.json(),async function(request, response){
