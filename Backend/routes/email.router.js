@@ -21,17 +21,7 @@ const router = express.Router();
 const API = "https://splendorous-puppy-1261f6.netlify.app/"
 
 
-// router.post('/settings',auth,express.json(),async function(request, response){
-//     const { email, password, user  } = request.body;
-//     const presentOrNot =  await findDataOfEmailCredential(request.body);
-//     if(presentOrNot){                        
-//       const updateRes = await updateData(request.body );
-//       response.status(200).send({message:"updated",...updateRes})
-//     }else{
-//       const dta = await createUserCredential(request.body)
-//         response.status(200).send({message: "created",...dta})
-//     }
-//   })
+
 
 router.get('/getCredential',auth,express.json(),async function(request, response){
     const user= request.header("user")

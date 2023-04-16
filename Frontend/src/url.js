@@ -1,5 +1,5 @@
 //  const API = "https://vercel.app" //
- const API = "bulk-email-git-main-jp8433.vercel.app"
+ const API = "http://localhost:4000"
 
 
  export default API
